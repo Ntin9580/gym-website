@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/plan.css
+
+block content
+    .container1
+      nav.navbar
+        ul
+          li.nav-item
+            a(href="/") Home
+          li.nav-item
+            a(href="/about") About
+          li.nav-item
+            a(href="/services") Services
+          li.nav-item
+            a(href="/contact") Contact        
+
+
+        h1 Here are all the details about the Premium Plan 
+
+        .line 
+
+        div.form
+
+            div.boxp
+
+                p ✓ 24/7 Gym Access
+                p ✓ Personal Trainer Support
+                p ✓ Custom Workout Program
+                p ✓ Personalized Diet Plan
+                p ✓ Advanced Fitness Assessment
+                p ✓ Priority Trainer Guidance
+                p ✓ Body Transformation Program
+                p ✓ Progress Tracking and Monthly Review
+                p ✓ Exclusive Premium Member Benefits
+
+            div.boxform
+
+                form(action="/premiumplan" method="post")
+                    input(type="text" class = "myinput" name="name" placeholder="Your Name")
+                    input(type="text" class = "myinput" name="age" placeholder="Your Age")
+                    input(type="email" class = "myinput" name="email" placeholder="Your Email")
+                    input(type="tel" class = "myinput" name="phone" placeholder="Your Phone Number")
+                    button(type="submit") Submit

@@ -1,0 +1,7 @@
+![Home Page](screenshots/home.png)
+[About page](../screenshots/about%20section.png)
+[Services page](../screenshots/services%20section.png)
+[Contact page](../screenshots/contact%20section.png)
+[Plans](../screenshots/plans.png)
+[Plans Information](../screenshots/planinformation.png)
+[Exercises](../screenshots/exercises.png)

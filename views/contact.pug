@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/contact.css
+
+block content
+    .container1
+      nav.navbar
+        ul
+          li.nav-item
+            a(href="/") Home
+          li.nav-item
+            a(href="/about") About
+          li.nav-item
+            a(href="/services") Services
+          li.nav-item
+            a(href="/contact") Contact
+        
+        h1 Contact Us 
+
+        p Address: Shyam Nagar, Faarrukhabad (U.P.)
+        p Phone.no: 91+ 7376426350
+        p email: roberthooknoob9580@gmail.com
+        p Pincode: 	209625

@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/plan.css
+
+block content
+    .container1
+      nav.navbar
+        ul
+          li.nav-item
+            a(href="/") Home
+          li.nav-item
+            a(href="/about") About
+          li.nav-item
+            a(href="/services") Services
+          li.nav-item
+            a(href="/contact") Contact       
+
+
+        h1 Here are all the details about the Basic Plan 
+
+        .line 
+
+        div.form
+
+            div.boxp
+
+                p ✓ Access to gym equipment
+                p ✓ Cardio and strength training area
+                p ✓ Basic workout guidance
+                p ✓ General fitness assessment
+                p ✓ Locker facility
+                p ✓ Group workout sessions
+                p ✓ Basic diet suggestions
+                p ✓ Progress tracking
+                p ✓ Community supports
+                p ✓ Access during regular gym hours
+
+            div.boxform
+
+                form(action="/basicplan" method="post")
+                    input(type="text" class = "myinput" name="name" placeholder="Your Name")
+                    input(type="text" class = "myinput" name="age" placeholder="Your Age")
+                    input(type="email" class = "myinput" name="email" placeholder="Your Email")
+                    input(type="tel" class = "myinput" name="phone" placeholder="Your Phone Number")
+                    button(type="submit") Submit

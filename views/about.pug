@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/about.css
+
+block content
+    .container1
+        nav.navbar
+         ul
+            li.nav-item
+                a(href="/") Home
+            li.nav-item
+                a(href="/about") About
+            li.nav-item
+                a(href="/services") Services
+            li.nav-item
+               a(href="/contact") Contact
+
+        h1 About Our Gym
+
+        .container1box 
+
+
+            .box 
+
+                h3 🏢 Our Facilities
+
+                p Modern gym equipment
+                p Cardio zone
+                p Strength training area
+                p Personal training
+                p Locker facilities
+
+            .box 
+
+                h3 👨‍🏫 Expert Trainers
+
+                p Certified trainers
+                p Workout guidance
+                p Diet support
+
+            .box 
+
+                h3 📊 Why Choose Us
+
+                p Beginner-friendly environment
+                p Customized workout plans
+                p Clean and safe workout space
+                p Results-focused training

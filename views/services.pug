@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/services.css
+
+block content
+    .container1
+      nav.navbar
+        ul
+          li.nav-item
+            a(href="/") Home
+          li.nav-item
+            a(href="/about") About
+          li.nav-item
+            a(href="/services") Services
+          li.nav-item
+            a(href="/contact") Contact
+
+      h1 Services we provided 
+      .p  
+        p Gym opens from 5am to 10pm
+        p Gym has 3 floors 
+        p Floor 1 has all free weight machines
+        p Floor 2 has cardio section 
+        p Floor 3 has all advance machines 
+        p Gym also has classes section where you can leran with professional coaches
