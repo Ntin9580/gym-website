@@ -1,7 +1,26 @@
-![Home Page](screenshots/home.png)
-[About page](../screenshots/about-section.png)
-[Services page](../screenshots/services-section.png)
-[Contact page](../screenshots/contact-section.png)
-[Plans](../screenshots/plans.png)
-[Plans Information](../screenshots/plan-information.png)
-[Exercises](../screenshots/exercises.png)
+# Gym Website
+
+A full-stack gym website built with Node.js, Express, Pug, MongoDB and JavaScript.
+
+## Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### About Page
+![About](screenshots/about-section.png)
+
+### Services Page
+![Services](screenshots/services-section.png)
+
+### Contact Page
+![Contact](screenshots/contact-section.png)
+
+### Plans
+![Plans](screenshots/plans.png)
+
+### Plan Information
+![Plan Information](screenshots/plan-information.png)
+
+### Exercises
+![Exercises](screenshots/exercises.png)
