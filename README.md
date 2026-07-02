@@ -1,5 +1,23 @@
 # Gym Website
 
+A fully responsive full-stack gym website built using Node.js, Express.js, MongoDB, Pug, CSS and JavaScript.
+
+## 🔗 Live Demo
+
+👉 https://gym-website-b7ph.onrender.com/
+
+## Features
+
+- Responsive Design
+- Membership Plans
+- Contact Form
+- MongoDB Integration
+- Smooth Animations
+- Clean UI
+
+
+# Gym Website
+
 A full-stack gym website built with Node.js, Express, Pug, MongoDB and JavaScript.
 
 ## Screenshots
@@ -24,23 +42,3 @@ A full-stack gym website built with Node.js, Express, Pug, MongoDB and JavaScrip
 
 ### Exercises
 ![Exercises](screenshots/exercises.png)
-
-
-
-
-# Gym Website
-
-A fully responsive full-stack gym website built using Node.js, Express.js, MongoDB, Pug, CSS and JavaScript.
-
-## 🔗 Live Demo
-
-👉 https://gym-website-b7ph.onrender.com/
-
-## Features
-
-- Responsive Design
-- Membership Plans
-- Contact Form
-- MongoDB Integration
-- Smooth Animations
-- Clean UI
