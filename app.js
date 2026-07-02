@@ -10,9 +10,11 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-    mongoose.connect(process.env.MONGO_URI)
-    //   await mongoose.connect('mongodb://localhost/gymwebsite');
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("MongoDB connected");
 }
+
+main().catch(err => console.log(err));
 
     // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 
@@ -23,7 +25,7 @@ const basicplanSchema = new mongoose.Schema({
     phone: String
 });
 const basicplan = mongoose.model('basicplan', basicplanSchema);
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const standardplanSchema = new mongoose.Schema({
     name: String,
